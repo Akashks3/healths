@@ -1,11 +1,9 @@
-
   .main-content {
     display: flex;
     overflow: hidden;
     height: 100hv;
   }
   
-
 main.dashboard-main-content {
     flex-grow: 1;
     padding: 24px;

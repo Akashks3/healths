@@ -1,13 +1,13 @@
 import React from 'react';
 import Sidebar from './Sidebar';
-import DashboardMainContent from './DashboardMainContent';
 import './App.css'; 
+import DashboardMainContent from './DashboardMainContent';
 const App = () => {
   return (
     <div className="app-container">
       <div className="main-content">
         <Sidebar />
-        <DashboardMainContent />
+        <DashboardMainContent/>
       </div>
     </div>
   );
