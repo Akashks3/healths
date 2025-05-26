@@ -1,0 +1,62 @@
+
+  header.header {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 0 20px;
+    height: 90px;
+  }
+  .header .logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:#00bfff;
+    letter-spacing: 1.5px;
+  }
+  .header .search-bar {
+    flex-grow: 1;
+    background-color: aliceblue;
+    margin: 0 20px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+  }
+  .header .search-bar::placeholder {
+    color: #cbd5e1;
+  }
+  .header .user-profile {
+    display: flex;
+    gap: 10px;
+    cursor: default;
+  }
+  .header .user-profile .avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    background: hsl(210, 100%, 74%) url('https://cdn2.iconfinder.com/data/icons/people-flat-design/64/Face-Profile-User-Man-Boy-Person-Avatar-512.png') center / cover no-repeat;
+  }
+  
+  .header .add-button {
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    background-color: #272884;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding:2px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: default;
+    line-height: 1;
+  }
+  .header .add-button:hover {
+    background-color: white;
+    color: #0d6efd;
+  }
+
+
+

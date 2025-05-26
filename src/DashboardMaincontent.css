@@ -1,0 +1,17 @@
+
+  .main-content {
+    display: flex;
+    overflow: hidden;
+    height: 100hv;
+  }
+  
+
+main.dashboard-main-content {
+    flex-grow: 1;
+    padding: 24px;
+    overflow-y: auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }

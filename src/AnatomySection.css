@@ -1,0 +1,265 @@
+
+.zoom-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000; 
+}
+
+.zoom-logo img {
+  width: 50px; 
+  height: auto;
+}
+
+
+.anatomical-illustration {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+.zoom-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000; 
+}
+
+.zoom-controls button {
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.zoom-controls button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+.hover-info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.anatomical-illustration {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+area {
+  cursor: pointer;
+  outline: none;
+}
+
+.dashboard {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.notify {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.anatomy-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard-header {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.anatomical-illustration {
+  margin-bottom: 10px;
+  text-align:center;
+}
+
+.full-body-anatomy {
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.health-status-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 13px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: start;
+  width: 180px;
+}
+
+.organ-icon {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  height: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.details-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.details-btn:hover {
+  background-color: #0056b3;
+}
+
+.details {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+
+.activity-feed {
+  margin-top: 40px;
+}
+
+.activity1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.activity2 {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+
+.bar-chart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.bars {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 200px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.bar-container {
+  position: relative;
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bar-container:hover {
+  transform: scale(1.1);
+}
+
+.bar {
+  width: 10%;
+  background-color: #007bff;
+  transition: height 0.3s ease-in-out;
+}
+
+.bar-label {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #444;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .health-status-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .bar-chart {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bars {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bar-container {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+  .upcoming-schedule {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+ 
+  .upcoming-schedule h3 {
+    margin: 0 0 12px;
+    color: lab(13.85% 15.73 -37.06);   
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  .upcoming-schedule > div {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #495057;
+    margin-top: 10px;
+    user-select: none;
+    display:block;
+  }

@@ -1,0 +1,16 @@
+.dashboard-overview {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .dashboard-overview {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+

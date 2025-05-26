@@ -1,0 +1,25 @@
+.simple-appointment-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    background: hsl(216, 89%, 89%);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.05);
+    cursor: default;
+    user-select: none;
+    font-weight: 600;
+  }
+  .simple-appointment-card span {
+    display:flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .simple-appointment-card span:first-child::before {
+    font-size: 1rem;
+  color: lab(13.85% 15.73 -37.06);
+    
+  }
+
+

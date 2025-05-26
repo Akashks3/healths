@@ -1,0 +1,119 @@
+
+  .health-status-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .simple-appointment-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    background: hwb(216 31% 16%);
+    border-radius: 8px;
+    padding: 10px;
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.05);
+    cursor: default;
+    user-select: none;
+    font-weight: 600;
+  }
+  .health-status-cards .card {
+    background: #f8f9fa;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+    font-weight: 600;
+    display: flex;    
+    cursor: default;
+  }
+  .health-status-cards .card .status-indicator {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+  }
+  .health-status-cards .card.lungs .status-indicator {
+    background-color: #28a745;
+  }
+  .health-status-cards .card.teeth .status-indicator {
+    background-color: #28a745;
+  }
+  .health-status-cards .card.bone .status-indicator {
+    background-color: #dc3545;
+  }
+  .health-status-cards .card .date {
+    font-size: 0.85rem;
+    color: #6c757d;
+  }
+  
+.navigation-row {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.current-label {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.year-nav-button {
+  border: none;
+  color: #050041;
+  padding: 6px 12px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.single-row {
+  border-radius: 8px;
+  padding: 15px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.month-days-header,
+.month-days-grid.row-style {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+
+.weekday-name {
+  font-size: 12px;
+  font-weight: bold;
+  color: #555;
+}
+
+.day {
+  height: 35px;
+  line-height: 35px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #e9ecef;
+  color: #333;
+}
+
+.day.today {
+  background-color: hsl(244, 93%, 18%);
+  font-weight: bold;
+}
+
+.day.past {
+  background-color: #dcdcdc;
+  color: #777;
+}
+
+.day.future {
+  background-color: #cce5ff;
+  color: #307fd3;
+}
+
+.day.empty {
+  background-color: transparent;
+}
