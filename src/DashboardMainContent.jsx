@@ -1,5 +1,5 @@
 import DashboardOverview from './DashboardOverview';
-import './DashboardMainContent.css'; 
+import './DashboardMaincontent.css'; 
 
 const DashboardMainContent = () => {
   return (
