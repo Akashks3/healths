@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from './Sidebar';
 import './App.css'; 
-import DashboardMainContent from './DashboardMainContent';
+import DashboardMainContent from './DashboardMainContent.jsx';
 const App = () => {
   return (
     <div className="app-container">
